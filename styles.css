@@ -5,14 +5,32 @@ body {
   text-align: center;
 }
 
-/* #C85C5C; ()color */
-h1 {
-  font-size: 3rem;
+.test {
+border: 0;
+border-bottom: 7px dotted #C85C5C;
+background: none;
 }
+
+h1 {
+  font-size: 4rem;
+}
+
 
 a {
   font-size: 1.5rem;
   margin: 2rem;
+  color: #ffff;
+}
+
+a:hover {
+color: #C85C5C;
+
+}
+
+p {
+  margin-bottom: 0;
+  font-size: 2rem;
+
 }
 
 .navbar-brand {
@@ -71,21 +89,22 @@ a {
 
 .div5 {
   background-color: #B2EA70;
-  padding: 9% 15%;
+  padding: 7% 15%;
 }
 
 .div6 {
   background-color: #0F00FF;
-  padding: 2rem 7rem;
+  padding: 1px 7rem;
 }
 
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 0;
   }
 
   .welcome {
@@ -99,7 +118,16 @@ a {
   .navbar-brand {
     font-size: 3rem;
   }
+
+.div4 {
+  padding: 2% 3%;
 }
+
+}
+
+
+
+/* CARROUSEL */
 
 #slideshow {
   margin: 0 auto;
