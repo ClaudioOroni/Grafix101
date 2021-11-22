@@ -127,9 +127,6 @@ p {
     font-size: 3rem;
   }
 
-.div4 {
-}
-
 }
 
 
@@ -281,3 +278,51 @@ p {
 }
 
 Resources1× 0.5× 0.25×Rerun
+
+
+/* client slider */
+
+#ClientsSlider .hcg-slide-container {
+	width: auto;
+	height: auto;
+}
+.hcg-slider {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.hcg-slide-container {
+	max-width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.hcg-slides {
+	display: none;
+	text-align: center;
+	overflow: hidden;
+}
+.hcg-slides img {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	border-radius: 5px;
+	border: solid 1px #a0a0a0;
+	vertical-align: middle;
+}
+/************CSS Animation***********/
+
+.animated {
+	animation-name: zoomIn;
+	animation-duration: 1s;
+}
+@keyframes zoomIn {
+	0% {
+		opacity: 0;
+		transform: scale3d(.3, .3, .3)
+	}
+	50% {
+		opacity: 1
+	}
+}
+.zoomIn {
+	animation-name: zoomIn
+}
