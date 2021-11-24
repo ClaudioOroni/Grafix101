@@ -1,11 +1,9 @@
-
 /* normal screen */
 body {
   background-color: #F9975D;
   color: #ffff;
   text-align: center;
 }
-
 
 h1 {
   font-size: 3.5rem;
@@ -19,32 +17,39 @@ a {
 }
 
 a:hover {
-color: #C85C5C;
-
+  color: #C85C5C;
 }
 
 p {
   margin-bottom: 0;
   font-size: 2rem;
+}
 
+.GFX {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  left: 1px;
+  top: 36rem;
+  z-index: 15;
+  opacity: 0.5;
+  transform: rotate(-20deg);
 }
 
 .subhead {
-padding: 2% 2%;
+  padding: 2% 2%;
 }
 
 .test {
-border: 0;
-border-bottom: 7px dotted #C85C5C;
-background: none;
+  border: 0;
+  border-bottom: 7px dotted #C85C5C;
+  background: none;
 }
 
 .btn {
   margin-top: 7%;
   font-size: 2.5rem;
 }
-
-
 
 .work {
   padding-bottom: 5rem;
@@ -115,7 +120,6 @@ background: none;
 .div45 {
   background-color: #C85C5C;
   padding: 7% 15%;
-
 }
 
 .div5 {
@@ -128,7 +132,6 @@ background: none;
 }
 
 /* MOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILE */
-
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 3.5rem;
@@ -151,12 +154,20 @@ background: none;
     font-size: 3rem;
   }
 
+  .GFX {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 1rem;
+    top: 25rem;
+    z-index: 15;
+    opacity: 0.5;
+    transform: rotate(-20deg);
+  }
+
 }
 
-
-
 /* CARROUSELCARROUSELCARROUSELCARROUSELCARROUSELCARROUSELCARROUSELCARROUSELCARROUSEL */
-
 #slideshow {
   margin: 0 auto;
   height: 250px;
@@ -233,7 +244,6 @@ background: none;
 .content-carrousel figure {
   width: 120%;
   height: 130px;
-
   overflow: hidden;
   position: absolute;
 }
@@ -277,7 +287,6 @@ background: none;
 .content-carrousel figure:nth-child(10) {
   transform: rotateY(360deg) translateZ(300px);
 }
-
 
 .content-carrousel img {
   image-rendering: auto;
