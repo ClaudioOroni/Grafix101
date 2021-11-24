@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 
 
-$(".welcome").fadeOut(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000).fadeOut(2000);
+// $(".welcome").fadeOut(2000).fadeIn(2000).fadeOut(2000).fadeIn(2000).fadeOut(2000);
 
 
 
