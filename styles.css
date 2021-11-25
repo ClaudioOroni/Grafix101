@@ -25,6 +25,7 @@ p {
   font-size: 2rem;
 }
 
+
 .GFX {
   width: 50%;
   height: auto;
@@ -34,6 +35,18 @@ p {
   z-index: 15;
   opacity: 0.5;
   transform: rotate(-20deg);
+}
+
+.otherpageGFX {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  right: 1px;
+  top: 5rem;
+  z-index: 15;
+  opacity: 0.5;
+  transform: rotate(20deg);
+
 }
 
 .subhead {
@@ -60,10 +73,7 @@ p {
   font-size: 3rem;
 }
 
-.navbar {
-  position: relative;
-  z-index: 10;
-}
+
 
 .welcome {
   position: absolute;
@@ -163,6 +173,18 @@ p {
     z-index: 15;
     opacity: 0.5;
     transform: rotate(-20deg);
+  }
+
+  .otherpageGFX {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    right: 1px;
+    top: 10rem;
+    z-index: 15;
+    opacity: 0.5;
+    transform: rotate(20deg);
+
   }
 
 }
