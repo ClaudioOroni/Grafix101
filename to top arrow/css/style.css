@@ -1,13 +1,10 @@
-
 /* to top */
-
 .text-replace {
   overflow: hidden;
   color: transparent;
   text-indent: 100%;
   white-space: nowrap
 }
-
 
 :root {
   --cd-color-1: hsl(53, 29%, 95%);
@@ -27,7 +24,6 @@
   --font-primary: 'Bitter', sans-serif;
   --font-secondary: 'Open Sans', sans-serif
 }
-
 
 .cd-top {
   position: fixed;
