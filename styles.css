@@ -26,6 +26,8 @@ p {
 }
 
 
+
+
 .GFX {
   width: 50%;
   height: auto;
@@ -67,6 +69,7 @@ p {
 .work {
   padding-bottom: 5rem;
   height: 40rem;
+  data-overlay= rgba(#B2EA70);
 }
 
 .navbar-brand {
