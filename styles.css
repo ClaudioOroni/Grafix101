@@ -147,12 +147,16 @@ p {
 /* MOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILE */
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 
   p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0;
+  }
+
+  a {
+    font-size: 14px;
   }
 
   .welcome {
@@ -168,11 +172,11 @@ p {
   }
 
   .GFX {
-    width: 50%;
+    width: 25%;
     height: auto;
     position: absolute;
     left: 1rem;
-    top: 25rem;
+    top: 30rem;
     z-index: 15;
     opacity: 0.5;
     transform: rotate(-20deg);
@@ -189,6 +193,12 @@ p {
     transform: rotate(20deg);
 
   }
+
+  .div4 {
+    position: relative;
+    z-index: -1;
+  }
+
 
 }
 
