@@ -147,16 +147,16 @@ p {
 /* MOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILE */
 @media only screen and (max-width: 1000px) {
   h1 {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 0;
   }
 
   a {
-    font-size: 14px;
+    font-size: 3rem;
   }
 
   .welcome {
@@ -172,7 +172,7 @@ p {
   }
 
   .GFX {
-    width: 25%;
+    width: 50%;
     height: auto;
     position: absolute;
     left: 1rem;
