@@ -182,6 +182,12 @@ p {
     font-size: 3.5rem;
   }
 
+  h2 {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+
   p {
     font-size: 2rem;
     margin-bottom: 0;
@@ -189,6 +195,20 @@ p {
 
   a {
     font-size: 1.5rem;
+  }
+
+  .homeLogo {
+    width: 100%;
+    height: auto;
+  }
+
+  .bg-light {
+    opacity: 1;
+  }
+
+  .navbar {
+    width: 100%;
+    position: relative;
   }
 
   .barnav{
@@ -230,6 +250,11 @@ p {
     opacity: 0.5;
     transform: rotate(20deg);
 
+  }
+
+  .div3 {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .div4 {
