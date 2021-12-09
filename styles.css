@@ -1,6 +1,6 @@
 /* normal screen */
 body {
-  background-color: #F9975D;
+  background-color: black;
   color: #ffff;
   text-align: center;
   font-family: 'Arimo', sans-serif;
@@ -11,24 +11,40 @@ h1 {
   padding: 2% 0;
 }
 
-h2 {
+/* h2 {
   padding: 4% 0;
-}
+} */
 
 a {
   font-size: 1.5rem;
   margin: 3rem;
   color: #ffff;
+  text-decoration: none;
 }
 
+
+
+
 a:hover {
-  color: #C85C5C;
+  color: #B2EA70;
 }
 
 p {
   margin-bottom: 0;
   padding: 0 15%;
   font-size: 1.4rem;
+}
+
+.HeightAuto {
+  padding: 20% 0;
+  width: 100%;
+  height: auto;
+}
+
+.con-links i {
+  float: left;
+  margin-right: 10px;
+  /* ... */
 }
 
 .serviceimg {
@@ -55,6 +71,11 @@ p {
 
 .bg-light {
   opacity: 0.5;
+}
+
+.con-links {
+  text-align: left;
+
 }
 
 .navbar {
@@ -94,6 +115,7 @@ p {
   border: 0;
   border-bottom: 7px dotted #ffff;
   background: none;
+  margin-bottom: 2%;
 }
 
 .btn {
@@ -103,8 +125,8 @@ p {
 
 .work {
   padding-bottom: 5rem;
-  height: 40rem;
-  data-overlay: rgba(#B2EA70);
+  height: 20rem;
+  width: 10rem;
 }
 
 .navbar-brand {
@@ -149,7 +171,8 @@ p {
 }
 
 .div3 {
-  background-color: #F9975D;
+  background-color: #ffff;
+  color: black;
   padding: 7% 15%;
 }
 
@@ -158,12 +181,10 @@ p {
   padding: 7% 15%;
 }
 
-.veb {
-  background-color: #B2EA70;
-}
 
 .div45 {
-  background-color: #C85C5C;
+  background-color: #ffff;
+  color: black;
   padding: 7% 0;
 }
 
@@ -173,7 +194,7 @@ p {
 }
 
 .div6 {
-  background-color: black;
+  background-color: #B2EA70;
 }
 
 /* MOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILEMOBILE */
