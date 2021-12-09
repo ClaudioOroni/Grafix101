@@ -24,11 +24,6 @@ a {
 
 
 
-
-a:hover {
-  color: #B2EA70;
-}
-
 p {
   margin-bottom: 0;
   padding: 0 15%;
@@ -36,7 +31,7 @@ p {
 }
 
 .HeightAuto {
-  padding: 20% 0;
+  padding-top: 20% 0;
   width: 100%;
   height: auto;
 }
@@ -214,10 +209,6 @@ p {
     margin-bottom: 0;
   }
 
-  a {
-    font-size: 1.5rem;
-  }
-
   .homeLogo {
     width: 100%;
     height: auto;
@@ -278,10 +269,8 @@ p {
     padding-right: 5%;
   }
 
-  .div4 {
-    position: relative;
-    z-index: -1;
-  }
+
+
 
 
 }
