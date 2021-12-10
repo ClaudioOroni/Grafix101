@@ -18,7 +18,7 @@
   --cd-color-2-h: 330;
   --cd-color-2-s: 13%;
   --cd-color-2-l: 42%;
-  --cd-color-3: hsl(300, 100%, 64%);
+  --cd-color-3: #09009B;
   --cd-color-3-h: 300;
   --cd-color-3-s: 100%;
   --cd-color-3-l: 64%;
@@ -42,8 +42,8 @@
   width: var(--cd-back-to-top-size);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   background: url(../img/cd-top-arrow.svg) no-repeat center 50%;
-  background-color: hsla(300, 100%, 64%, 1);
-  background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+  background-color: #09009B;
+
 }
 
 .js .cd-top {
@@ -62,7 +62,7 @@
 }
 
 .js .cd-top:hover {
-  background-color: hsl(300, 100%, 64%);
+  background-color: #09009B;
   background-color: var(--cd-color-3);
   opacity: 1
 }
